@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T00:26:27 EDT" name="Suite" finished-at="2023-04-15T00:26:44 EDT" duration-ms="16728">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T00:26:27 EDT" name="Test" finished-at="2023-04-15T00:26:44 EDT" duration-ms="16728">
+      <class name="testCases.TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TestCases@397fbdb]" started-at="2023-04-15T00:26:27 EDT" name="setup" finished-at="2023-04-15T00:26:36 EDT" duration-ms="9516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest()[pri:0, instance:testCases.TestCases@397fbdb]" started-at="2023-04-15T00:26:36 EDT" name="registrationTest" finished-at="2023-04-15T00:26:39 EDT" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="logoutTest()[pri:0, instance:testCases.TestCases@397fbdb]" started-at="2023-04-15T00:26:39 EDT" name="logoutTest" finished-at="2023-04-15T00:26:40 EDT" depends-on-methods="testCases.TestCases.registrationTest" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TestCases@397fbdb]" started-at="2023-04-15T00:26:40 EDT" name="loginTest" finished-at="2023-04-15T00:26:42 EDT" depends-on-methods="testCases.TestCases.logoutTest" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchTest()[pri:0, instance:testCases.TestCases@397fbdb]" started-at="2023-04-15T00:26:43 EDT" name="searchTest" finished-at="2023-04-15T00:26:44 EDT" depends-on-methods="testCases.TestCases.loginTest" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+      </class> <!-- testCases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

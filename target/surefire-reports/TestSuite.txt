@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 11.568 s <<< FAILURE! - in TestSuite
+registrationTest(testCases.TestCases)  Time elapsed: 2.775 s  <<< FAILURE!
+java.lang.AssertionError: expected [Register Account] but found [Your Account Has Been Created!]
+	at testCases.TestCases.registrationTest(TestCases.java:25)
+
