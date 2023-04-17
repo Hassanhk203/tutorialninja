@@ -14,7 +14,7 @@ public class TestCases extends LandingPage {
 		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.id("input-firstname")).sendKeys("Samir");
 		driver.findElement(By.id("input-lastname")).sendKeys("Sami");
-		driver.findElement(By.id("input-email")).sendKeys("Samir62073@gmail.com");
+		driver.findElement(By.id("input-email")).sendKeys("Samir6652073@gmail.com");
 		driver.findElement(By.id("input-telephone")).sendKeys("123 234 2345");
 		driver.findElement(By.id("input-password")).sendKeys("Samir123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Samir123");
